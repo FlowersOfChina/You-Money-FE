@@ -3,11 +3,14 @@
 import Vue from 'vue'
 import App from './App'
 import ElementUI from 'element-ui';
+import Icon from 'vue-awesome/components/Icon'
 import 'element-ui/lib/theme-chalk/index.css';
 import 'font-awesome/css/font-awesome.css'
 import router from './router'
 
 Vue.config.productionTip = false
+
+Vue.component('icon',Icon)
 
 /* eslint-disable no-new */
 new Vue({
